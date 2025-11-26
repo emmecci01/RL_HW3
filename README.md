@@ -157,6 +157,7 @@ make px4_sitl gz_x500
 MicroXRCEAgent udp4 -p 8888
 
 ```
+After cloning the offboard_rl folder in /home/user/ros2_ws/src:
 
 **Terminal 3** - Run multi-waypoint planner:
 
