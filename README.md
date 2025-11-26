@@ -120,7 +120,7 @@ After updating the force_land package with the provided one:
 cd home/user/ros2_ws/src
 colcon build
 source install/setup.bash
-ros2 run force_land force_land_node
+ros2 run force_land force_land
 ```
 
 ### Data Recording for Analysis
