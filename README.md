@@ -112,7 +112,8 @@ make px4_sitl gz_x500
 ```bash
 MicroXRCEAgent udp4 -p 8888
 ```
-After updating the force_land package with the provided one:
+After updating the force_land package with the provided one: 
+
 **Terminal 3** - Run ForceLand node:
 
 ```bash
