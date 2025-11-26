@@ -112,7 +112,7 @@ make px4_sitl gz_x500
 ```bash
 MicroXRCEAgent udp4 -p 8888
 ```
-
+After updating the force_land package with the provided one:
 **Terminal 3** - Run ForceLand node:
 
 ```bash
@@ -146,7 +146,7 @@ To verify the planner's functionality, after launching the PX4 simulation enviro
 
 ```bash
 cd PX4-Autopilot
-make px4_sitl gz_ciccio_drone
+make px4_sitl gz_x500
 
 ```
 
