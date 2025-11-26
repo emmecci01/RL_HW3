@@ -84,11 +84,13 @@ MicroXRCEAgent udp4 -p 8888
 **Terminal 3** - Visualize actuator outputs in real-time:
 
 ```bash
-cd home/user/ros2_ws/usr
+cd home/user/ros2_ws/src
 colcon build
 source install/setup.bash
 ros2 topic echo /fmu/out/actuator_outputs
 ```
+Then launch the executable file of QGroundControl. Now, to fly the drone in position flight mode, you have two choices: you can set the "commander takeoff" in the first terminal (PX4 terminal) or you can set the takeoff directly in QGroundControl.
+While you drive your drone, you can visualize the actuator outputs in the fourth terminal.
 
 Here is the link to the demo video: https://youtu.be/4mg3Z719B8A
 
@@ -114,7 +116,7 @@ MicroXRCEAgent udp4 -p 8888
 **Terminal 3** - Run ForceLand node:
 
 ```bash
-cd home/user/ros2_ws/usr
+cd home/user/ros2_ws/src
 colcon build
 source install/setup.bash
 ros2 run force_land force_land_node
